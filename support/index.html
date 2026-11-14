@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,107 +8,30 @@
   <title>Support Center | VaultSpend</title>
   <style>
     :root {
-      --bg: #070B14;
-      --card: #142A43;
-      --blue: #3B9EFF;
-      --green: #10D99A;
-      --text: #F3F7FC;
-      --muted: #A8B8CC;
+      --bg: #070B14; --card: #142A43; --blue: #3B9EFF;
+      --green: #10D99A; --text: #F3F7FC; --muted: #A8B8CC;
       --border: rgba(255,255,255,.10);
     }
-
     * { box-sizing: border-box; }
-
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.7;
-    }
-
-    header {
-      border-bottom: 1px solid var(--border);
-      padding: 20px 6%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 16px;
-      flex-wrap: wrap;
-    }
-
-    .brand {
-      font-size: 23px;
-      font-weight: 800;
-      color: white;
-      text-decoration: none;
-    }
-
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: Arial, Helvetica, sans-serif; line-height: 1.7; }
+    header { border-bottom: 1px solid var(--border); padding: 20px 6%; display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; }
+    .brand { font-size: 23px; font-weight: 800; color: white; text-decoration: none; }
     .brand span { color: var(--blue); }
-
     nav { display: flex; gap: 18px; flex-wrap: wrap; }
-
-    nav a {
-      color: var(--muted);
-      text-decoration: none;
-      font-size: 14px;
-    }
-
+    nav a { color: var(--muted); text-decoration: none; font-size: 14px; }
     nav a:hover { color: var(--blue); }
-
-    main {
-      width: min(850px, 90%);
-      margin: 55px auto;
-    }
-
-    .tag {
-      color: var(--blue);
-      font-size: 12px;
-      font-weight: bold;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-    }
-
+    main { width: min(850px, 90%); margin: 55px auto; }
+    .tag { color: var(--blue); font-size: 12px; font-weight: bold; letter-spacing: 2px; text-transform: uppercase; }
     h1 { font-size: clamp(32px, 6vw, 48px); margin: 8px 0; }
     h2 { font-size: 21px; margin-top: 34px; }
     p, li { color: var(--muted); }
     a { color: var(--blue); }
-
-    .intro {
-      font-size: 17px;
-      color: var(--muted);
-      margin-bottom: 30px;
-    }
-
-    .card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      padding: 22px;
-      border-radius: 12px;
-      margin: 16px 0;
-    }
-
+    .intro { font-size: 17px; color: var(--muted); margin-bottom: 30px; }
+    .card { background: var(--card); border: 1px solid var(--border); padding: 22px; border-radius: 12px; margin: 16px 0; }
     .card h3 { margin-top: 0; }
-
-    .notice {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-left: 4px solid var(--blue);
-      padding: 18px;
-      border-radius: 10px;
-      margin: 25px 0;
-    }
-
-    footer {
-      border-top: 1px solid var(--border);
-      padding: 25px 6%;
-      text-align: center;
-      color: var(--muted);
-      font-size: 13px;
-    }
-
+    .notice { background: var(--card); border: 1px solid var(--border); border-left: 4px solid var(--blue); padding: 18px; border-radius: 10px; margin: 25px 0; }
+    footer { border-top: 1px solid var(--border); padding: 25px 6%; text-align: center; color: var(--muted); font-size: 13px; }
     footer a { margin: 0 8px; text-decoration: none; }
-
     @media(max-width: 600px) {
       header { align-items: flex-start; flex-direction: column; }
       nav { gap: 12px; }
@@ -118,104 +40,70 @@
   </style>
 </head>
 <body>
-
 <header>
-  <a class="brand" href="/">Vault<span>Spend</span></a>
+  <a class="brand" href="../">Vault<span>Spend</span></a>
   <nav>
-    <a href="/privacy-policy/">Privacy</a>
-    <a href="/terms/">Terms</a>
-    <a href="/account-deletion/">Account Deletion</a>
-    <a href="/support/">Support</a>
+    <a href="../privacy-policy/">Privacy</a>
+    <a href="../terms/">Terms</a>
+    <a href="../account-deletion/">Account Deletion</a>
+    <a href="../support/">Support</a>
   </nav>
 </header>
 
 <main>
   <div class="tag">VaultSpend · Help Center</div>
   <h1>How can we help?</h1>
-  <p class="intro">
-    Need assistance with VaultSpend? Find information about
-    your account, transactions, security and app features below.
-  </p>
+  <p class="intro">Need assistance with VaultSpend? Find information about your account, transactions, security and app features below.</p>
 
   <div class="card">
     <h3>Account & Login</h3>
-    <p>
-      For login, signup, email verification or password reset
-      problems, first check that you are using the correct
-      account credentials.
-    </p>
+    <p>For login, signup, email verification or password reset problems, first check that you are using the correct account credentials.</p>
   </div>
 
   <div class="card">
     <h3>Transactions & Budgets</h3>
-    <p>
-      VaultSpend helps you record income and expenses and
-      manage your budget. Check your entered amounts and
-      transaction details if a summary looks incorrect.
-    </p>
+    <p>VaultSpend helps you record income and expenses and manage your budget. Check your entered amounts and transaction details if a summary looks incorrect.</p>
   </div>
 
   <div class="card">
     <h3>Security & PIN</h3>
-    <p>
-      Keep your account credentials and device secure.
-      Use the available app-lock and security settings
-      to protect access to your app.
-    </p>
+    <p>Keep your account credentials and device secure. Use the available app-lock and security settings to protect access to your app.</p>
   </div>
 
   <div class="card">
     <h3>Donations & Receipts</h3>
-    <p>
-      Submitted donation receipts may require manual review.
-      Uploading a screenshot does not automatically confirm
-      a successful payment.
-    </p>
+    <p>Submitted donation receipts may require manual review. Uploading a screenshot does not automatically confirm a successful payment.</p>
   </div>
 
   <div class="card">
     <h3>Account Deletion</h3>
-    <p>
-      To learn how to request account deletion, visit our
-      <a href="/account-deletion/">Account Deletion page</a>.
-    </p>
+    <p>To learn how to request account deletion, visit our <a href="../account-deletion/">Account Deletion page</a>.</p>
   </div>
 
   <h2>Contact Support Through the App</h2>
-  <p>
-    VaultSpend includes an in-app Support Center where signed-in
-    users can create support tickets, select a category,
-    describe an issue and view replies.
-  </p>
-  <div class="notice">
-    Open VaultSpend → Settings → Support Center to access
-    the available support features.
-  </div>
+  <p>VaultSpend includes an in-app Support Center where signed-in users can create support tickets, select a category, describe an issue and view replies.</p>
+  <div class="notice">Open VaultSpend → Settings → Support Center to access the available support features.</div>
 
   <h2>Public Support Contact</h2>
-  <p>
-    TODO: Add an official support email address or verified
-    public contact method before publishing this page.
-  </p>
+  <p>Email our support team at <a href="mailto:vaultspend.official@outlook.com">vaultspend.official@outlook.com</a>. Please do not email passwords, PINs or other sensitive credentials.</p>
 
   <h2>Helpful Policies</h2>
   <ul>
-    <li><a href="/privacy-policy/">Privacy Policy</a></li>
-    <li><a href="/terms/">Terms & Conditions</a></li>
-    <li><a href="/account-deletion/">Account Deletion</a></li>
+    <li><a href="../privacy-policy/">Privacy Policy</a></li>
+    <li><a href="../terms/">Terms & Conditions</a></li>
+    <li><a href="../account-deletion/">Account Deletion</a></li>
   </ul>
 </main>
 
 <footer>
   © 2026 VaultSpend. All rights reserved.
   <p>
-    <a href="/privacy-policy/">Privacy</a>
-    <a href="/terms/">Terms</a>
-    <a href="/account-deletion/">Account Deletion</a>
-    <a href="/support/">Support</a>
+    <a href="../privacy-policy/">Privacy</a>
+    <a href="../terms/">Terms</a>
+    <a href="../account-deletion/">Account Deletion</a>
+    <a href="../support/">Support</a>
   </p>
   <p>Track · Manage · Save</p>
 </footer>
-
 </body>
 </html>
